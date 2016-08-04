@@ -1,6 +1,8 @@
 $("#cristo").click(function(){
   $("#heading").slideToggle("slow");
 });
+
+
 $("#cristo").click(function(){
   $("#heading").fadeToggle();
   $(".description").fadeToggle("slow");
