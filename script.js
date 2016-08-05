@@ -1,3 +1,5 @@
+$( document ).ready(function(){
+
 $("#cristo").click(function(){
   $("#heading").slideToggle("slow");
 });
@@ -9,3 +11,4 @@ $("#cristo").click(function(){
   $(".candy").fadeToggle(3000);
 });
 $("h1").css({"color":"#FF0066","font-size":"300%"});
+});
